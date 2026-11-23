@@ -1,63 +1,64 @@
-<div align="center">
-  <h1>SK Arif Hossain</h1>
-  <p><strong>Software Developer&nbsp; · &nbsp;Full-Stack&nbsp; · &nbsp;Android&nbsp; · &nbsp;IoT</strong></p>
-  <p>B.Tech IT (2027), GCETT Serampore · IoT intern at Maxbridge Solutions, Kolkata</p>
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=16&duration=3200&pause=900&color=2DD4BF&center=true&vCenter=true&width=640&lines=I+plan%2C+build+and+ship+real+products;Web+%C2%B7+Android+%C2%B7+ESP32+firmware;Open+to+Software+Developer+roles+(2027)" alt="I plan, build and ship real products. Web, Android and ESP32 firmware. Open to Software Developer roles (2027)." />
-  <p>
-    <a href="https://arifportfolio-swart.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-0D1117?style=for-the-badge&logo=vercel&logoColor=2DD4BF" alt="Portfolio" /></a>
-    <a href="https://linkedin.com/in/skarifhossain-it"><img src="https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=60A5FA" alt="LinkedIn" /></a>
-    <a href="mailto:skarifhossain36@outlook.com"><img src="https://img.shields.io/badge/Email-0D1117?style=for-the-badge&logo=microsoftoutlook&logoColor=2DD4BF" alt="Email" /></a>
-    <a href="https://arifportfolio-swart.vercel.app/Arif-Hossain-Resume.pdf"><img src="https://img.shields.io/badge/Resume-0D1117?style=for-the-badge&logo=adobeacrobatreader&logoColor=60A5FA" alt="Resume" /></a>
-  </p>
-</div>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/banner-dark.svg" />
+  <img src="./assets/banner-light.svg" width="100%" alt="SK Arif Hossain. I build the whole path: firmware on the board, the cloud in between, and the app in your hand." />
+</picture>
 
----
+<p>
+  <a href="https://arifportfolio-swart.vercel.app/">Portfolio</a> &nbsp;/&nbsp;
+  <a href="https://arifportfolio-swart.vercel.app/Arif-Hossain-Resume.pdf">Resume</a> &nbsp;/&nbsp;
+  <a href="https://linkedin.com/in/skarifhossain-it">LinkedIn</a> &nbsp;/&nbsp;
+  <a href="mailto:skarifhossain36@outlook.com">skarifhossain36@outlook.com</a>
+</p>
 
-## What I build
+Open to Software Developer, Android and IoT roles for 2027.
 
-| Project | What it is | Stack | Links |
-|---|---|---|---|
-| **ExamSphere** | Live exam-prep platform: server-graded quizzes over 1,800+ GATE PYQs, web + Android, one Firebase backend, CI/CD with 160+ runs. Collaborative project with NoveletyTech. | Next.js · TypeScript · Firebase · Jetpack Compose · GitHub Actions | [examsphere.in](https://examsphere.in) |
-| **Haven** | ESP32 smart relay controller: firmware with BLE setup and verified TLS, timers and schedules that run offline, React dashboard and Android app. | ESP32 (C++) · BLE · Firebase RTDB · React · Capacitor | [Repo](https://github.com/Arif1221/Web_Dashboard_relay) · [Live](https://esp32dashboardrelay.vercel.app) |
-| **Kairos** | Offline Android music player: time-synced lyrics, bit-perfect USB output, accent colour from the album art. | Kotlin · Jetpack Compose · Media3 · Room | [Repo](https://github.com/Arif1221/kairos) · [APK](https://github.com/Arif1221/kairos/releases/latest) |
-| **CareerPilot AI Agent** | Scores a resume against a job description and rewrites weak bullets. IBM SkillsBuild team project. | FastAPI · Gemini · React · Vite | [Repo](https://github.com/Arif1221/Careerpilot-Agent) · [Live](https://careerpilot-agent.vercel.app) |
-| **StudyPilot AI** | Chrome extension that asks several LLMs and returns a consensus answer with a reliability score. | Manifest V3 · React · TypeScript · OpenRouter · Vitest | [Repo](https://github.com/Arif1221/Multi-Model-Al-Quiz-Assistant) |
-| **SignBridge** | Experimental Indian Sign Language prototype using on-device hand-landmark tracking (30 isolated signs). | React · TypeScript · MediaPipe | [Repo](https://github.com/Arif1221/SignBridge) |
-| **MAKAUT Ledger** | SGPA / CGPA / YGPA / DGPA calculator for MAKAUT students. | HTML · CSS · JavaScript | [Repo](https://github.com/Arif1221/Makaut-Calc-by-Lazy-BX) · [Live](https://makautcalcbx.vercel.app) |
+## What I've built
 
-## Tech stack
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/stack-dark.svg" />
+  <img src="./assets/stack-light.svg" width="100%" alt="Which layers each project covers: Haven covers hardware, cloud, web and Android. ExamSphere covers cloud, web and Android. Kairos is Android. CareerPilot covers cloud, web and AI. StudyPilot and SignBridge cover web and AI." />
+</picture>
 
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=java,python,c,cpp,kotlin,ts,js&theme=dark" alt="Java, Python, C, C++, Kotlin, TypeScript, JavaScript" /><br/>
-  <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,fastapi,firebase,androidstudio,arduino&theme=dark" alt="React, Next.js, Tailwind CSS, FastAPI, Firebase, Android Studio, Arduino" /><br/>
-  <img src="https://skillicons.dev/icons?i=git,github,githubactions,linux,vercel,vscode&theme=dark" alt="Git, GitHub, GitHub Actions, Linux, Vercel, VS Code" />
-</div>
+**[Haven](https://github.com/Arif1221/Web_Dashboard_relay)** controls mains relays from a phone. ESP32 firmware with Bluetooth setup and verified TLS, schedules that keep running offline, and a React + Firebase dashboard with an Android app. Built during my internship at Maxbridge Solutions. [Live dashboard](https://esp32dashboardrelay.vercel.app)
 
-**Core CS:** OOP · DBMS · Data Structures & Algorithms · Computer Networks · Operating Systems
-**Hardware:** ESP32 · BLE · relays and sensors · PCB wiring and soldering
+**[ExamSphere](https://examsphere.in)** is a live exam-prep platform. I built the Next.js web app with a server-graded quiz API over 1,800+ GATE questions, and the Jetpack Compose Android app on the same backend. Collaborative project, so the code is private.
+
+**[Kairos](https://github.com/Arif1221/kairos)** is an offline Android music player: time-synced lyrics read straight from file tags, bit-perfect USB audio, and colours taken from the album art. [Download the APK](https://github.com/Arif1221/kairos/releases/latest)
+
+**[CareerPilot](https://github.com/Arif1221/Careerpilot-Agent)** scores a resume against a job description and rewrites the weak bullets (FastAPI + Gemini). [Try it](https://careerpilot-agent.vercel.app)
+
+**[StudyPilot](https://github.com/Arif1221/Multi-Model-Al-Quiz-Assistant)** is a Chrome extension that asks GPT, Claude and Gemini the same question and shows where they agree.
+
+**[SignBridge](https://github.com/Arif1221/SignBridge)** recognises 30 Indian Sign Language signs in the browser with MediaPipe hand tracking.
+
+## What I work with
+
+**Languages:** Java, Python, TypeScript, Kotlin, C, C++<br/>
+**Apps:** React, Next.js, Jetpack Compose, FastAPI, Firebase<br/>
+**Hardware:** ESP32, BLE, Arduino, PCB wiring and soldering<br/>
+**Shipping:** Git, GitHub Actions, Vitest, pytest, JUnit, Vercel<br/>
+**AI dev tools:** Claude Code, Cursor, Google Antigravity, OpenAI Codex
 
 ## Activity
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Arif1221&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&rank_icon=github&bg_color=0D1117&title_color=60A5FA&text_color=C9D1D9&icon_color=2DD4BF" width="49%" alt="GitHub statistics" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Arif1221&layout=compact&langs_count=8&hide_border=true&bg_color=0D1117&title_color=60A5FA&text_color=C9D1D9" width="41%" alt="Most used languages" />
-  <br/><br/>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Arif1221/Arif1221/output/github-contribution-grid-snake-dark.svg" />
-    <img src="https://raw.githubusercontent.com/Arif1221/Arif1221/output/github-contribution-grid-snake.svg" alt="Contribution graph animation" />
-  </picture>
-</div>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=Arif1221&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&hide_rank=true&bg_color=0E1A2B&title_color=EAF0F7&text_color=93A7BF&icon_color=C99A35" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Arif1221&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&hide_rank=true&bg_color=F3F6FA&title_color=10233A&text_color=52667E&icon_color=B8861B" height="165" alt="GitHub statistics for Arif1221" />
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Arif1221&layout=compact&langs_count=8&hide_border=true&bg_color=0E1A2B&title_color=EAF0F7&text_color=93A7BF" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Arif1221&layout=compact&langs_count=8&hide_border=true&bg_color=F3F6FA&title_color=10233A&text_color=52667E" height="165" alt="Most used languages" />
+</picture>
 
-## On repeat
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Arif1221/Arif1221/output/github-contribution-grid-snake-dark.svg" />
+  <img src="https://raw.githubusercontent.com/Arif1221/Arif1221/output/github-contribution-grid-snake.svg" width="100%" alt="Contribution graph with an animated snake eating the commits" />
+</picture>
 
-<div align="center">
-  <a href="https://open.spotify.com/track/0T0dtKxuioR0YeregxKGWF">
-    <img src="./assets/listening-card.gif" width="80%" alt="On repeat: Illusionary Daytime by Shirfine. Open in Spotify" />
-  </a>
-</div>
+<details>
+<summary>On repeat while I code</summary>
+<br/>
+<a href="https://open.spotify.com/track/0T0dtKxuioR0YeregxKGWF"><img src="./assets/listening-card.gif" width="70%" alt="Illusionary Daytime by Shirfine. Open in Spotify" /></a>
+</details>
 
----
-
-<div align="center">
-  <sub>More projects, experience and contact: <a href="https://arifportfolio-swart.vercel.app/">arifportfolio-swart.vercel.app</a></sub>
-</div>
+<sub>The banner and project map are hand-made SVGs (<code>assets/make_svgs.py</code>), set in Chakra Petch (SIL OFL). The signal on the banner stops for people who prefer reduced motion.</sub>
